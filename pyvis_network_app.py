@@ -18,7 +18,7 @@ d.update((x, scale*y) for x, y in d.items())
 #Setting up size attribute
 nx.set_node_attributes(G, d, 'size')
 
-net = Network(notebook=True, height='1200px', width='900px')
+net = Network(notebook=True, height='800px', width='600px')
 net.from_nx(G)
 
 # Save and read graph as HTML file (on Streamlit Sharing)
